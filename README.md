@@ -56,7 +56,7 @@ Number of Orders, and Sales Amount.
      • Forecast Visualization  
      Tableau Dashboard: https://public.tableau.com/shared/7CMSJT3RF?:display_count=n&:origin=viz_share_link
 
-2. Technical Blog on Medium:
+2. Technical Blog on Medium: https://medium.com/@sravanikunapaneni08/product-sales-forecasting-using-machine-learning-ae388a6d97d5
    
 3. Loom Demo Video:
 
