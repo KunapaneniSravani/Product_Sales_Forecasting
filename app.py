@@ -78,9 +78,9 @@ def forecast():
             df = df.iloc[split_at-60:split_at]
             test['pred'] = model.forecast(steps=n, exog=exog)
             fig = go.Figure()
-            fig.add_trace(go.Scatter(x=df.index, y=df[sub], name='Train values'))
-            fig.add_trace(go.Scatter(x=test.index, y=test[sub], name='Test values'))
-            fig.add_trace(go.Scatter(x=test.index, y=test['pred'], name='Forecasting'))
+            fig.add_trace(go.Scatter(x=df.index, y=df[sub], line=dict(color='green'), name='Train values'))
+            fig.add_trace(go.Scatter(x=test.index, y=test[sub], line=dict(color='orange') name='Test values'))
+            fig.add_trace(go.Scatter(x=test.index, y=test['pred'], line=dict(color='red') name='Forecasting'))
             fig.update_layout(title_text=f'Forecasting of {typ} for {category} {sub}',
                               title_x=0.5,title_y=0.85, legend_x=0)
             return pio.to_json(fig)
