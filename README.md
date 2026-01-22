@@ -58,5 +58,5 @@ Number of Orders, and Sales Amount.
 
 2. Technical Blog on Medium: https://medium.com/@sravanikunapaneni08/product-sales-forecasting-using-machine-learning-ae388a6d97d5
    
-3. Loom Demo Video:
+
 
